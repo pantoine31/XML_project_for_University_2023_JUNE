@@ -1,0 +1,40 @@
+<!ELEMENT customerList (company,person*)>
+<!ELEMENT company (company_info,package_offer+)>
+<!ATTLIST company CompCodeNo NMTOKEN #IMPLIED>
+
+<!ELEMENT company_info (company_name,AFM,DOY,address)>
+<!ELEMENT company_name (#PCDATA)>
+
+<!ELEMENT person_info (name,middle_name?,surname,AFM,DOY,address)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT middle_name (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT AFM (#PCDATA)>
+<!ELEMENT DOY (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+
+<!ATTLIST package_offer package_category (B_START| B_LITE | P_LITE | P_START | B_all | P_all | B_smart | P_smart) #REQUIRED>
+<!ATTLIST package_offer package_id NMTOKEN #IMPLIED>
+
+<!ELEMENT package_offer (giving+,tel_numb*,startPrice,(finalPrice|in_discount),contract_start_date,contract_end_date)>
+<!ELEMENT giving (#PCDATA)>
+<!ELEMENT tel_numb (#PCDATA)>
+<!ELEMENT startPrice (#PCDATA)>
+<!ELEMENT finalPrice (#PCDATA)>
+<!ELEMENT contract_start_date (#PCDATA)>
+<!ELEMENT contract_end_date (#PCDATA)>
+<!ELEMENT in_discount ((discount_rate,amount_after_disccount)|(amount_after_disccount,discount_rate))>
+<!ELEMENT discount_rate (#PCDATA)>
+<!ELEMENT amount_after_disccount (#PCDATA)>
+<!ELEMENT person (person_info,package_offer)>
+
+<!ATTLIST person PersonCodeNo NMTOKEN #IMPLIED>
+<!ATTLIST company CompCodeNo NMTOKEN #IMPLIED>
+
+<!ATTLIST startPrice unitS NMTOKEN "euro">
+<!ATTLIST startPrice forperiodS NMTOKEN "month">
+<!ATTLIST finalPrice unitF NMTOKEN "euro">
+<!ATTLIST finalPrice forperiodF NMTOKEN "month">
+
+<!ATTLIST amount_after_disccount unit NMTOKEN "euro">
+<!ATTLIST amount_after_disccount forperiod NMTOKEN "month">

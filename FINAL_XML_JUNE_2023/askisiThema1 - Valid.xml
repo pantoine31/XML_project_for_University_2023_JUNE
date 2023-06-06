@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ERGASIA EKSAMINOU -->
+
+<!DOCTYPE customerList SYSTEM "askisiThema1.dtd">
+
+<customerList>
+	<company CompCodeNo="5165">
+		<company_info>
+			<company_name>Unipi</company_name>
+			<AFM>999999999</AFM>
+			<DOY>ΠΕΙΡΑΙΩΣ</DOY>
+			<address>ΚΑΡΑΟΛΗ ΚΑΙ ΔΗΜΗΤΡΙΟΥ</address>
+		</company_info>
+		<package_offer package_category="B_START" package_id="325">
+            <giving>ΔΩΡΕΑΝ ΣΙΤΗΣΗ</giving>
+            <tel_numb>2104142000</tel_numb>
+            <startPrice unitS="euro" forperiodS="month">800</startPrice>
+            <finalPrice unitF="euro" forperiodF="month">650</finalPrice>
+            <contract_start_date>18-03-2002</contract_start_date>
+			<contract_end_date>20-05-2025</contract_end_date>
+		</package_offer>
+        <package_offer package_category="P_START" package_id="327">
+            <giving>ΓΡΑΦΙΣΤΙΚΗ ΥΛΗ</giving>
+            <tel_numb>2104142000</tel_numb>
+            <startPrice>700</startPrice>
+            <in_discount>
+                <discount_rate>50</discount_rate>
+                <amount_after_disccount unit="euro" forperiod="month">350</amount_after_disccount>
+            </in_discount>
+            <contract_start_date>12-08-2004</contract_start_date>
+			<contract_end_date>01-12-2024</contract_end_date>
+		</package_offer>
+	</company>
+	<person PersonCodeNo="5167">
+		<person_info>
+			<name>ΙΩΑΝΝΗΣ</name>
+			<middle_name>ΚΩΣΤΑΣ</middle_name>
+			<surname>ΠΑΠΑΔΟΠΟΥΛΟΣ</surname>
+			<AFM>111111111</AFM>
+			<DOY>ΘΕΣΣΑΛΟΝΙΚΗΣ</DOY>
+			<address>Λεωφόρος Νίκης</address>
+		</person_info>
+		<package_offer package_category="P_START" package_id="327">
+            <giving>ΤΑΞΙΔΙ</giving>
+            <tel_numb>6948647516</tel_numb>
+            <startPrice>400</startPrice>
+            <in_discount>
+                <amount_after_disccount>360</amount_after_disccount>
+                <discount_rate>10</discount_rate>
+            </in_discount>
+            <contract_start_date>25-05-2023</contract_start_date>
+			<contract_end_date>27-06-2023</contract_end_date>
+		</package_offer>
+	</person>
+</customerList>

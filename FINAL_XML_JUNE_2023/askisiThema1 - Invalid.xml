@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ERGASIA EKSAMINOU -->
+
+<!DOCTYPE customerList SYSTEM "askisiThema1.dtd">
+
+<customerList>
+	<company CompCodeNo="5165">
+		<company_info>
+			<company_name></company_name>
+			<AFM></AFM>
+			<DOY></DOY>
+			<address></address>
+		</company_info>
+		<package_offer package_category="B_START" package_id="325">
+            <giving></giving>
+            <tel_numb></tel_numb>
+            <startPrice unitS="euro" forperiodS="month"></startPrice>
+            <finalPrice unitF="euro" forperiodF="month"></finalPrice>
+            <contract_start_date>
+			<contract_end_date></contract_end_date>
+			</contract_start_date>
+		</package_offer>
+        <package_offer package_category="P_START" package_id="327">
+		    <giving></giving>
+            <tel_numb></tel_numb>
+            <startPrice unitS="euro" forperiodS="month"></startPrice>
+            <finalPrice unitF="euro" forperiodF="month"></finalPrice>
+            <contract_start_date></contract_start_date>
+			<contract_end_date></contract_end_date>
+		</package_offer>
+	</company>
+	<person PersonCodeNo="5167">
+		<person_info>
+			<name></name>
+			<middle_name></middle_name>
+			<surname></surname>
+			<AFM>
+			<DOY>
+			</AFM>
+			</DOY>
+			<address></address>
+		</person_info>
+		<package_offer package_category="P_START" package_id="327">
+            <giving></giving>
+            <tel_numb></tel_NUMD>
+            <startPrice></startPrice>
+            <in_discount>
+                <amount_after_disccount></amount_after_disccount>
+                <discount_rate></discount_rate>
+            </in_discount>
+            <contract_start_date></contract_start_date>
+			</contract_end_date>
+		</package_offer>
+	</person>
+</customerList>
